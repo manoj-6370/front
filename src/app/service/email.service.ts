@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class EmailService {
-   private baseurl:string="https://serv-production-d370.up.railway.app"
+   private baseurl:string="https://serv-production-bcd3.up.railway.app"
   constructor(private http:HttpClient) { }
 
   sendEmail(data:any){
